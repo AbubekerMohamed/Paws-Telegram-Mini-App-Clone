@@ -1,12 +1,3 @@
-// app/layout.tsx
-
-/**
- * This project was developed by Nikandr Surkov.
- * 
- * YouTube: https://www.youtube.com/@NikandrSurkov
- * GitHub: https://github.com/nikandr-surkov
- */
-
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -23,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Paws Game Clone",
-  description: "Clone of the popular Telegram mini app Paws, developed by Nikandr Surkov.",
+  title: "Fuas Game ",
+  description: "A crypto game",
 };
 
 export default function RootLayout({
